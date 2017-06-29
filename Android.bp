@@ -14,6 +14,7 @@
 
 cc_library_static {
     name: "lmfit",
+    vendor: true,
 
     srcs: [
         "lib/lmcurve.c",
